@@ -1,0 +1,23 @@
+output-
+How many employee information do you need to store?3
+
+ Enter information of employee in this format(NAME/ID/SALARY)
+ Enter information of:0
+ Employee xyz 123 50000
+
+ Enter information of:1
+ Employee abc 234 6000
+
+ Enter information of:2
+ Employee lmn 565 70000
+
+ Information of Employees is as follows:
+ Enter Name:xyz
+ Enter Id:123
+ Enter Salary:50000
+ Enter Name:abc
+ Enter Id:234
+ Enter Salary:6000
+ Enter Name:lmn
+ Enter Id:565
+ Enter Salary:70000

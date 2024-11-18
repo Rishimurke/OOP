@@ -1,0 +1,40 @@
+Output
+ Main Menu
+1. Insert an element
+2. Display
+3. Search an state
+ Enter your choice: 1
+ Enter the name of state: Maharashtra
+ Enter the population(in Cr): 126
+ Do you want to continue?(y/n): y
+ Main Menu
+1. Insert an element
+2. Display
+3. Search an state
+ Enter your choice: 1
+ Enter the name of state: Gujrat
+ Enter the population(in Cr): 72
+ Do you want to continue?(y/n): y
+ Main Menu
+1. Insert an element
+2. Display
+3. Search an state
+ Enter your choice: 1
+ Enter the name of state: Punjab
+ Enter the population(in Cr): 4
+ Do you want to continue?(y/n): y
+ Main Menu
+1. Insert an element
+2. Display
+3. Search an state
+ Enter your choice: 2
+ State and Populations are: [Maharashtra, 126] [Gujrat, 72] [Punjab, 4]
+Do you want to continue?(y/n): y
+ Main Menu
+1. Insert an element
+2. Display
+3. Search an state
+ Enter your choice: 3
+Enter the name of state for searching its population: Maharashtra
+Population is 126 Cr
+Do you want to continue?(y/n): n

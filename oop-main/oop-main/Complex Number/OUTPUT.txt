@@ -1,0 +1,13 @@
+OUTPUT:
+Complex no 1 is:1.2 + 2.2i
+Enter complex no 2:
+Enter real part of complex number 2: 1
+
+Enter imaginary part of complex number 2: 2
+Complex number 1 is :1.2 + 2.2i
+Complex number 2 is :1 + 2i
+Complex number 3 is :0 + 0i
+
+Addition of two complex numbers is: 2.2 + 4.2i
+
+Multiplication of two complex number is: -3.2 + 4.6i

@@ -1,0 +1,61 @@
+Problem Statement
+
+Implement a class Complex which represents the Complex Number data type. Implement the following operations:
+1. Constructor (including a default constructor which creates the complex number 0+0i).
+2. Overloaded operator+ to add two complex numbers.
+3. Overloaded operator* to multiply two complex numbers.
+4. Overloaded << and >> to print and read Complex Numbers.
+Objectives:
+
+1. Understand the concept of constructors and how to design it.
+2. Understand the OOP concept of operator overloading.
+Outcomes:
+
+1. Will be able to design constructors for classes designed in programming.
+2. Will be able to program using operator functions.
+
+Software Requirements:
+1. 64-bit Open source Linux or its derivative
+2. Open Source C++ Programming tool like G++/GCC.
+
+Theory:
+C++ Class
+A class is the collection of related data and function under a single name. A C++ program can have any number of
+classes. When related data and functions are kept under a class, it helps to visualize the complex problem efficiently
+and effectively.
+Class is defined in C++ programming using keyword class followed by identifier(name of class). Body of class is
+defined inside curly brackets an terminated by semicolon at the end in similar way as structure.
+
+class class_name
+{
+// some data
+// some functions
+};
+
+Constructors:
+Constructors are the special type of member function that initialises the object automatically when it is created
+Compiler identifies that the given member function is a constructor by its name and return type. Constructor has
+same name as that of class and it does not have any return type.
+Department of Computer Engineering, DYPCOE, Pune
+Constructor can be overloaded in similar way as function overloading. Overloaded constructors have same
+name(name of the class) but different number of argument passed. Depending upon the number and type of argument
+passed, specific constructor is called. Since, constructor are called when object is created. Argument to the
+constructor also should be passed while creating object.
+A object can be initialized with another object of same type.- Default Copy Constructor. If you want to initialise a
+object A3 so that it contains same value as A2.
+Area A3(A2); /* Copies the content of A2 to A3
+*/ OR,
+Area A3=A2; /* Copies the content of A2 to A3 */
+
+Algorithm
+
+1. Design a class Complex which represents the Complex Number data type.
+2. Create a custructor which creates the complex number 0+0i
+Complex(): real(0), imag(0){ }
+3. Use operator overloading to overload operator+ to add two complex numbers.
+Complex operator + (Complex c2)
+4. Use operator overloading to overload operator* to multiply two complex numbers.
+Complex operator * (Complex c3)
+5. Use operator overloading to overload operator<< and >> to print and read Complex Numbers.
+friend ostream& operator << (ostream &out, Complex &c); //overloading '<<' operator
+friend istream& operator >> (istream &in, Complex &c); //overloading '>>' operator

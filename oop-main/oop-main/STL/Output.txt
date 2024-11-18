@@ -1,0 +1,60 @@
+Output
+Program for Searching and sorting
+ Main Menu
+ 1. Create a database
+ 2. Display a database
+ 3. Search particular element
+ 4. Sort the database(based on name)
+ Enter your choice: 1
+ How many elements you want to insert?
+3
+ Enter the Elements in the database
+ Name: BBB
+ Birth Date(dd-mm-yy): 01-01-01
+ Phone: 1111
+ Name: CCC
+ Birth Date(dd-mm-yy): 11-11-19
+ Phone: 2222
+ Name: AAA
+ Birth Date(dd-mm-yy): 05-10-05
+ Phone: 3333
+
+ Do you want to go back to Main Menu? y
+ Main Menu
+ 1. Create a database
+ 2. Display a database
+ 3. Search particular element
+ 4. Sort the database(based on name)
+ Enter your choice: 2
+ The contents of the database are: ------------------------------------------------
+ Name Birth Date Phone
+------------------------------------------------
+ BBB 01-01-01 1111
+ CCC 11-11-19 2222
+ AAA 05-10-05 3333
+
+ Do you want to go back to Main Menu? y
+ Main Menu
+ 1. Create a database
+ 2. Display a database
+ 3. Search particular element
+ 4. Sort the database(based on name)
+ Enter your choice: 3
+ Enter the name which you want to search CCC
+ The desired element is present in the database
+
+ Do you want to go back to Main Menu? y
+ Main Menu
+ 1. Create a database
+ 2. Display a database
+ 3. Search particular element
+ 4. Sort the database(based on name)
+ Enter your choice: 4
+ Record is Sorted!!!
+ The contents of the database are: ------------------------------------------------
+ Name Birth Date Phone
+------------------------------------------------
+ AAA 05-10-05 3333
+ BBB 01-01-01 1111
+ CCC 11-11-19 2222
+ Do you want to go back to Main Menu?

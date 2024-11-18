@@ -1,0 +1,25 @@
+Output
+Selection Sort
+Handling Integer elements
+How many elements are there ? 5
+Enter the integer elements
+30
+50
+40
+20
+10
+The sorted List is ...
+10      20   30      40      50
+----------------------------------------------------------------------------------
+
+Handling Float elements
+How many elements are there ? 5
+Enter the float elements
+44.44
+22.22
+11.11
+55.55
+33.33
+
+The sorted List is ...
+11.11   22.22  33.33   44.44   55.55

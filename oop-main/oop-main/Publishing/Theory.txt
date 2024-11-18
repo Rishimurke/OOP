@@ -1,0 +1,36 @@
+Problem Statement
+Imagine a publishing company that markets both book and audiocassette versions of its works. Create a class
+publication that stores the title (a string) and price (type float) of a publication. From this class derive two classes:
+book, which adds a page count (type int), and tape, which adds a playing time in minutes (type float). Each of these
+three classes should have a getdata() function to get its data from the user at the keyboard, and a putdata() function to
+display its data. Write a main() program to test the book and tape classes by creating instances of them, asking the
+user to fill in data with getdata(), and then displaying the data with putdata().
+
+Objectives:
+To learn the concept of Class, Object,Data Hiding , Inheritance
+
+Outcomes:
+The performer will be able to design a program in c++ using concept Class, Object,Data Hiding , Inheritance
+Software Requirements:
+1. 64-bit Open source Linux or its derivative
+2. Open Source C++ Programming tool like G++/GCC.
+
+Theory:
+Inheritance
+Inheritance is the capability of one class to acquire properties and characteristics from another class. The class whose
+properties are inherited by other class is called the Parent or Base or Super class. And, the class which inherits
+properties of other class is called Child or Derived or Sub class. Inheritance makes the code reusable. When we
+inherit an existing class, all its methods and fields become available in the new class, hence code is reused.
+class Subclass_name : access_mode Superclass_name
+While defining a subclass like this, the super class must be already defined or atleast declared before the subclass
+declaration.Access Mode is used to specify, the mode in which the properties of superclass will be inherited into
+subclass, public, privtate or protected.
+
+
+Algorithm:
+1. Design a Base Class publication which contains fiels to store title and price..
+2. Design two derived classes to hold properties of Tape and Book respectively.
+3. Create a functions for getting data and putting data in the base class as well as in the derived class.
+4. Create main() program to test the book and tape classes by creating instances of them, asking the user to fill
+in data with getdata(), and then displaying the data with putdata().
+

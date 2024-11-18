@@ -1,0 +1,13 @@
+OUTPUT:
+Enter title of publication:Technical
+Enter price of publication:230
+Enter Book Page Count:450
+Enter title of publication:Techneo
+Enter price of publication:760
+Enter tape s playing time(in min):23
+Publication title:Technical
+Publication price:230
+book page count:450
+Publication title:Techneo
+Publication price:760
+tapes playing time:23

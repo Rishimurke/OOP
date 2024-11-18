@@ -1,0 +1,30 @@
+Problem Statement
+Write a function template selectionSort. Write a program that inputs, sorts and outputs an int array and a float array.
+Objectives:
+To learn the use of Templates and sorting in c++ programming
+
+Outcomes:
+The performer will be able to design a program in c++ using Templates and Sorting .
+
+Software Requirements:
+1. 64-bit Open source Linux or its derivative
+2. Open Source C++ Programming tool like G++/GCC.
+
+Theory:
+Templates
+Templates are the foundation of generic programming, which involves writing code in a way that is independent of
+any particular type.
+A template is a blueprint or formula for creating a generic class or a function. The library containers like iterators and
+algorithms are examples of generic programming and have been developed using template concept.
+
+Just as we can define function templates, we can also define class templates. The general form of a generic class declarationis shown here:
+template <class type> class class-name {
+Here, type is the placeholder type name, which will be specified when a class is instantiated. You can define more
+than one generic data type by using a comma-separated list.
+
+Algorithm:
+1. Create Template template <typename T>
+2.Create a function to perform sorting.
+void Sort(T* const array,int size){
+3.Create a function to display array
+void printarray(T* const array,int size
